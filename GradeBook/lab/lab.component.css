@@ -1,0 +1,26 @@
+.pol {
+    display: flex; justify-content: space-between;
+}
+.card1{
+    margin-left: 230px;
+    border: solid;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.card2{
+    margin-right: 250px;
+    border: solid;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+.ss {
+    margin-left: 70px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.gitna{
+    font: solid;
+    padding-top: 200px;
+    padding-right: 30px;
+}

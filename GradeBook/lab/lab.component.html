@@ -1,0 +1,51 @@
+<div class="pol">
+    <div class="card1">
+        <div class="card-body">
+            <h5 class="card-title">Student Name</h5>
+            <input type="text" #studentinput placeholder="Name" (input)=getStud(studentinput.value)/>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Student ID</h5>
+            <input type="text" #idinput placeholder="Student ID" (input)=getID(idinput.value)/>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Prelim Grade</h5>
+            <input type="number" #preinput placeholder="Prelim Grade" (input)=getPre(preinput.value)/>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Midterm Grade</h5>
+            <input type="number" #midinput placeholder="Midterm Grade" (input)=getMid(midinput.value)/>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Final Grade</h5>
+            <input type="number" #fininput placeholder="Final Grade" (input)=getFin(fininput.value)/>
+          </div>
+          <button class="ss" (click)="showGrade($event)"><p>Submit</p></button>
+    </div>
+    <div class="gitna">
+        <h4>Hello! {{ ShowName }}</h4>
+        <h2>Computed Average Grade is {{ ShowAveg }}</h2>
+    </div>
+    <div class="card2">
+        <div class="card-body">
+            <h5 class="card-title1">Student Name</h5>
+            <strong>Name: {{ShowName }}</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title1">Student ID</h5>
+            <strong>ID#: {{ShowID}}</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title1">Prelim Grade</h5>
+            <strong>Grade: {{ShowPre}}</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title1">Midterm Grade</h5>
+            <strong>Grade: {{ShowMid}}</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title1">Final Grade</h5>
+            <strong>Grade: {{ShowFin}}</strong>
+          </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: maroon;
+    color: white;
+    font-size: 30px;
+    display: flex;
+
+  }
+  .footer {
+  
+    text-align: center;
+    background: grey;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+
+  }
+  .pi {
+      margin-left:  500px;
+  }
+img{
+    height: 50px;
+}
+.gelo {
+    background-color: peachpuff;
+}
